@@ -1,0 +1,27 @@
+.learnmore{
+	position: relative;
+	background:url(../img/learnmore.jpg) no-repeat center bottom;
+	background-size: cover;
+.container{
+	color: #fff;
+	padding: 25rem 2rem 16rem;
+	text-align: center;
+.bth-link{
+	color: #000;
+	background: #fff;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+&:hover{
+	color: #fff;
+	background: #000;
+}
+}
+}
+}
+
+
+@media screen and (max-width: 992px){
+.learnmore .container{
+	padding: 12rem 2rem;
+}	
+}

@@ -1,0 +1,110 @@
+.live{
+	position: relative;
+	background: url(../img/live-bg.jpg) no-repeat;
+	background-size: cover;
+.container{
+	max-width: 102.4rem;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	padding: 11rem 2rem 12rem;
+p{
+	font: 1.7rem/2.7rem $font3;
+	padding-bottom: 3rem;
+}
+.t-bold{
+	font: 2rem/2.7rem $font-bold1;
+}
+.images{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding-top: 4rem;
+.img-item{
+	flex: 1 1 0px;
+    width: 0;
+	text-align: center;
+	margin: 0 1.5rem;
+img{
+	max-width: 26.1rem;
+	width: 100%;
+	height: auto;
+}
+span{
+	display: block;
+	font-size: 3rem;
+	padding-top: 1rem;
+	word-break: break-all;
+}
+.img-title{
+	height: 10rem;
+}
+}
+}
+.diseases{
+  	-webkit-columns: 3;
+  		-moz-columns: 3;
+  			columns: 3;
+  	padding-bottom: 4rem;
+li{
+	align-items: center;
+	margin:0 0 1rem 2rem;
+	height: 4.2rem;
+span{
+	font: 2rem $font-bold1;
+	padding-top: 0;
+	padding-left: 1.4rem;
+}
+}
+}
+}
+}
+@media screen and (min-width: 1280px){
+.live .container{
+	padding-top: 17rem;
+}
+}
+@media screen and (max-width: 992px){
+.live .container .diseases{
+	-webkit-columns: 2;
+  		-moz-columns: 2;
+  			columns: 2;
+li{
+	height: auto;
+}
+}
+}
+@media screen and (max-width: 576px){
+.live .container{
+.images{
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+.img-item{
+	margin-bottom: 4rem;
+	width: auto;
+	flex: 1 1 auto;
+img{
+	max-width: 20.1rem;
+}
+.img-title{
+	height: 7rem;
+}
+}
+}
+.diseases{
+	max-width: 30rem;
+	margin: auto;
+	-webkit-columns: 1;
+  		-moz-columns: 1;
+  			columns: 1;
+li{
+	margin-left: 0;
+}
+}
+}
+}

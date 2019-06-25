@@ -1,0 +1,79 @@
+.header-two{
+.container{
+	position: relative;
+	padding-bottom: 14rem;
+.header-left{
+	position: absolute;
+	z-index: 99;
+	left: 3rem;
+	background-size: 39.4rem 24.2rem;
+h1{
+	position: relative;
+	top: -3.5rem;
+	padding-bottom: 0;
+}
+.bth-link{
+	position: relative;
+	top: -1rem;
+}
+.tel{
+	color: #000;
+	font: 4.8rem $font-bth;
+	text-transform: uppercase;
+	display: block;
+	padding-top: 2rem;
+	margin-top: -1rem;
+}
+.block-name{
+	margin-top: 11.5rem;
+	padding-bottom: 12rem;
+}
+}	
+.header-right{
+	margin-left: 43.5rem;
+	padding-left: 0;
+}
+.text{
+	padding-top: 7.5rem;
+}
+}
+}
+
+@media screen and(max-width: 1180px){
+.header-two .container{
+.header-right{
+	margin-left: 36.5rem;
+}
+}
+}
+@media screen and(max-width: 590px){
+.header-two .container h2{
+	font-size: 4.6rem;
+}
+}
+@media screen and(max-width: 520px){
+.header-two .container{
+h2{
+	font-size: 5rem;
+}
+.header-left{
+	position: relative;
+	left: 0;
+h1{
+	top:0;
+}
+.bth-link{
+	top: 1rem;
+}
+.tel{
+	margin-top: 0;
+}
+}
+.header-right{
+	margin-left: 0;
+.mobail-menu{
+	top: 20rem;
+}
+}
+}
+}

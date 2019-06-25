@@ -1,0 +1,85 @@
+.our_chiropractic{
+	position: relative;
+	z-index: 2;
+	background: url(../img/OurChiropractic.jpg) no-repeat;
+	background-position: 100% 9rem;
+h2{
+	text-align: center;
+	padding: 10rem 2rem 0;
+span{
+	display: block;
+}
+}
+.container{
+	max-width: 60rem;
+	width: 100%;
+	padding: 10rem 0 20rem 14rem;
+	margin-right: auto;
+	margin-left: 0;
+p{
+	color: #4f4f4f;
+	font: 1.7rem/2.7rem $font3;
+	padding-bottom: 4rem;
+}
+.diseases{
+li p{
+	font: 2.7rem/3.4rem $font-bold1;
+	color: #000;
+	padding-left: 1rem;
+span{
+	display: block;
+	font-style: italic;
+	font-family: $font3;
+}
+}
+.icon-ok{
+	color: #fff;
+}
+.diseases-check{
+	height: 4.2rem;
+}
+}
+}
+}
+
+@media screen and (max-width: 1600px){
+.our_chiropractic{
+	background-position: 135% 9rem;
+}
+}
+@media screen and (max-width: 1350px){
+.our_chiropractic{
+	background-position: 170% 9rem;
+}
+}
+@media screen and (max-width: 1265px){
+.our_chiropractic{
+	background-position: 220% 9rem;
+}
+}
+@media screen and (max-width: 1190px){
+.our_chiropractic .container{
+	padding: 10rem 7rem 20rem;
+}
+}
+@media screen and (max-width: 1155px){
+.our_chiropractic{
+	background-position: 338% 9rem;
+}
+}
+@media screen and (max-width: 1090px){
+.our_chiropractic{
+	background-size: 60rem auto;
+	background-position: 100% 100%;
+.container{
+	max-width: 100%;
+	padding: 10rem 2rem 78rem;
+}
+}
+}
+
+@media screen and (max-width: 450px){
+.our_chiropractic{
+	background-position: 1% 100%;	
+}
+}

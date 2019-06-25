@@ -1,0 +1,140 @@
+@import "fonts";
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+              box-sizing: border-box;
+}
+:root{
+	font-size: 10px;
+}
+body{
+	overflow-x: hidden;
+}
+.wrapper{
+	min-width: 320px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-family: $font1;	
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+h1, 
+h2,
+h3,
+h4{
+	font-weight: normal;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 100%;
+}
+.bth-link{
+	font: 3.8rem $font-bth;
+	line-height: 5rem;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.076rem;
+	border-radius: 27px;
+	padding: 0 3.5rem;
+	white-space: nowrap;
+}
+h2{
+	font-size: 5rem;
+	padding-bottom: 3rem;
+span{
+	font-family: $font-bold1;
+}
+}
+.text{
+p{
+	font-size: 2.2rem;
+	line-height: 3rem;
+}
+}
+
+.bg-line{
+  display: block;
+  width: 100%;
+&::after,
+&:before{
+	position: absolute;
+  	border-top: 7vw solid #fff; 
+  	top: 0;
+ 	content: "";
+}
+&:before{
+	border-left: 50vw solid transparent;
+   right: 50%;
+}
+&::after{
+   border-right: 50vw solid transparent;
+   left: 50%;
+}
+}
+.bg-line2{
+   display: block;
+   width: 100%;
+&::after,
+&:before{
+	position: absolute;
+  	border-bottom: 7vw solid #fff; 
+  	bottom: 0;
+ 	content: "";
+}
+&:before{
+   border-right: 50vw solid transparent;
+   right: 50%;
+}
+&::after{
+  border-left: 50vw solid transparent;
+  left: 50%;
+}
+}
+.diseases{
+li{
+	display: flex;
+}
+}
+.diseases-check{
+	min-width: 4.2rem;
+	width: 4.2rem;
+	line-height: 4rem;
+	background: #85c05e;
+	border-radius: 50%;
+	text-align: center;
+i{
+	font-size: 1.9rem;
+	vertical-align: middle;
+}
+}
+@media screen and(max-width: 768px){
+:root{
+	font-size: 9px;
+}
+}
+@media screen and(max-width: 576px){
+:root{
+	font-size: 8px;
+}
+}
+@import "header";
+@import "about";
+@import "live";
+@import "meet";
+@import "testimonials";
+@import "learnmore";
+@import "contact";
+@import "footer";
+
+
+@import "header_two";
+@import "wework";
+@import "our_chiropractic";
+@import "office";

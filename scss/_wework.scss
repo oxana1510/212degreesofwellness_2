@@ -1,0 +1,30 @@
+.wework{
+.container{
+	padding: 4rem 2rem 2rem 47rem;
+p{
+	max-width: 65.7rem;
+	width: 100%;
+ 	font: 1.7rem/2.7rem $font3;
+ 	color: #4f4f4f;
+}
+}
+}
+@media screen and(max-width: 992px){
+.wework .container{
+	padding-left: 38rem;
+}
+}
+@media screen and(max-width: 768px){
+.wework .container{
+	padding: 21rem 2rem 2rem;
+p{
+	max-width: 100%;
+}
+}
+}
+
+@media screen and(max-width: 520px){
+.wework .container{
+	padding-top: 4rem;
+}
+}
